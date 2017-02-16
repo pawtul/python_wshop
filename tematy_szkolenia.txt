@@ -1,0 +1,37 @@
+0. trochę o pythonie
+-interpretowany
+-alternatywne implementacje
+-zen of python
+-sys
+-składnia:
+--nie ma ;
+--wcięcia
+--komentarze
+-_ w interpreterze
+
+1. pip
+-pip search
+-pip show
+-pip install
+
+2. virtualenv
+-virtualenv
+-virtualenvwrapper
+
+3. zmienne i typy
+-dynamiczne i silne typowanie
+-definiowanie zmiennych
+-referencje
+-typy modyfikowalne/niemodyfikowalne
+-inspekcja - dir
+-dokumentacja __doc__
+-zmienne:
+--słownik
+--krotka
+--lista
+--string/bytes - wieloliniowe stringi
+--int/float
+--zbiór
+--
+
+
