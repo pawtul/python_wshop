@@ -37,7 +37,7 @@
 --zbiór/frozenset
 --range/xrange
 --wartości logiczne:
----False, [], '', {}, set(), (), 0
+---False, [], '', {}, set(), (), 0, None
 --operatory:
 ---**, *, /, //, %, +,-, ~, <<, >>, &, |, ^
 ---<,>, <=, >=, !=, is, in
@@ -51,16 +51,20 @@
 
 5. funkcje
 -pisanie funkcji
--argumenty domyślne
+-argumenty domyślne - triki z mutowalnymi
+-call by sharing + zmienne globalne
 -dokstringi
--lambdy
--generatory
--call by sharing
--late binding
+-lambdy -
 -argumenty pozycyjne i słowa kluczowe
+-generatory + COMPREHENSIONS!!!
+-late binding
 -domknięcia/free variables
--funkcje wyższych rzędów
+-funkcje wyższych rzędów + map, filter
 -dekoratory
+
+5.5 Wyjątki
+- try, except, finally, else
+-raise
 
 6. moduły
 -import, from module import ...
@@ -76,31 +80,57 @@
 
 
 7. Obiekty i klasy
--wszystko jest obiektem
+-wszystko jest obiektem, ducktyping
 -new/old style classes
--atrybuty
+-atrybuty + name mangling
+- __dict__/__slots__
 -metody
 -monkeypatching:
 --dodawanie metod po definicji klasy
 -magiczne metody:
---__new__
---__init__
---__int__
---__div__ itp
---__str__/__repr__/__format__ fmt_spec
---__getattribute__/__getattr__/__setattr__/
---__call__
---__getitem__/__setitem__
+--konstrukcja i inicjalizacja:
+---__new__
+---__init__
+--reprezentacja słowna:
+---__repr__, __str__, __unicode__, __format__ (fmt_spec)
+--rzutowanie:
+---__int__, __float__, __str__, __unicode__, __iter__
+--przeciążanie operatorów:
+---__div__ itp
+--- __neg__, __pos__, __invert__, __abs__, __le__, lt, ge, gt
+--- iadd, itp
+---__call__
+---__getitem__/__setitem__
+--dostęp do atrybutów:
+---__getattribute__/__getattr__/__setattr__/__delattr__
 --sekwencje:
 ---__len__
 ---__getitem__ - liczba/slice
 --iterowanie:
----__iter__
----__getitem__ + indeksy
+---obiekt iterowalny:
+----__iter__
+----__getitem__ + indeksy
+---iterator:
+----__iter__
+---__next__/next
+--__contains__
+--__missing__
+-NotImplemented/NotImplementedError
 -classmethods
 -staticmethods
--property
--dziedziczenie
--menedżery kontekstu
+-property i deskryptory
+-dziedziczenie/ wielodziedziczenie/ __mro__
+-menedżery kontekstu, __exit__ zwraca True jak ok a False jak reraise
 
 
+8. I/O
+
+
+9. testowanie
+-unittest
+-mock
+-patch
+
+10. przydatne rzeczy:
+- enumerate
+- castowanie False/True na int
