@@ -144,3 +144,9 @@
 - getattr
 - reversed
 - metody słownika/listy
+
+
+# wpadki:
+tuple((1,2,3,4,5))
+[[]] * 5
+{True:'a', 1:'b', 1.0:'c'}
