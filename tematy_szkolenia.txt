@@ -6,8 +6,7 @@
 -składnia:
 --nie ma ;
 --wcięcia
---komentarze
--_ w interpreterze
+--komentarze -_ w interpreterze
 
 1. pip
 -pip search
@@ -150,3 +149,43 @@
 tuple((1,2,3,4,5))
 [[]] * 5
 {True:'a', 1:'b', 1.0:'c'}
+
+co jeszcze trzeba:
+
+    Usystematyzowanie podstawowej wiedzy
+        funkcje i programowanie funkcyjne
+        programowanie obiektowo-orientowane
+        częste pułapki.
+    Przetwarzanie danych
+        obsługa XML
+        JSON.
+    Komunikacja między-procesowa (IPC)
+        zarządzanie procesami
+        obsługa sygnałów
+        komunikacja strumieniowa.
+    Programowanie wielowątkowe
+        wprowadzenie do wątków
+        obsługa wątków
+        synchronizacja
+        Global Intepreter Lock
+        przegląd dalszych możliwości.
+    Debugowanie aplikacji
+        podstawowe techniki
+        moduł pdb
+        elementy zaawansowane.
+    Testowanie aplikacji
+        wprowadzenia do testów jednostkowych
+        popularne biblioteki testujące
+        wprowadzanie do TDD.
+    Baza danych
+        ważne aspekty przy programowaniu baz danych.
+    Zaawansowane mechanizmy w  Pythonie
+        deskryptory
+        dekoratory
+    Optymalizacja wydajności programów (opcjonalnie jak starczy czasu)
+        efektywne wykorzystanie obiektów wbudowanych
+        optymalizacja interpretera Python
+        profilowanie i identyfikacja "wąskich gardeł"
+        magiczne sztuczki i co dalej?
+        
++ linting
