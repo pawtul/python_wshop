@@ -154,7 +154,6 @@ co jeszcze trzeba:
 
     Usystematyzowanie podstawowej wiedzy
         funkcje i programowanie funkcyjne
-        programowanie obiektowo-orientowane
         częste pułapki.
     Przetwarzanie danych
         obsługa XML
@@ -179,9 +178,6 @@ co jeszcze trzeba:
         wprowadzanie do TDD.
     Baza danych
         ważne aspekty przy programowaniu baz danych.
-    Zaawansowane mechanizmy w  Pythonie
-        deskryptory
-        dekoratory
     Optymalizacja wydajności programów (opcjonalnie jak starczy czasu)
         efektywne wykorzystanie obiektów wbudowanych
         optymalizacja interpretera Python
