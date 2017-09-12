@@ -172,10 +172,6 @@ co jeszcze trzeba:
         podstawowe techniki
         moduł pdb
         elementy zaawansowane.
-    Testowanie aplikacji
-        wprowadzenia do testów jednostkowych
-        popularne biblioteki testujące
-        wprowadzanie do TDD.
     Baza danych
         ważne aspekty przy programowaniu baz danych.
     Optymalizacja wydajności programów (opcjonalnie jak starczy czasu)
