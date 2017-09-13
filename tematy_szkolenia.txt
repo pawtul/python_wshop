@@ -155,9 +155,7 @@ co jeszcze trzeba:
     Usystematyzowanie podstawowej wiedzy
         funkcje i programowanie funkcyjne
         częste pułapki.
-    Przetwarzanie danych
-        obsługa XML
-        JSON.
+        
     Komunikacja między-procesowa (IPC)
         zarządzanie procesami
         obsługa sygnałów
@@ -168,12 +166,15 @@ co jeszcze trzeba:
         synchronizacja
         Global Intepreter Lock
         przegląd dalszych możliwości.
+        
     Debugowanie aplikacji
         podstawowe techniki
         moduł pdb
         elementy zaawansowane.
+        
     Baza danych
         ważne aspekty przy programowaniu baz danych.
+        
     Optymalizacja wydajności programów (opcjonalnie jak starczy czasu)
         efektywne wykorzystanie obiektów wbudowanych
         optymalizacja interpretera Python
