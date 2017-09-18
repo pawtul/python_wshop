@@ -167,11 +167,6 @@ co jeszcze trzeba:
         Global Intepreter Lock
         przegląd dalszych możliwości.
         
-    Debugowanie aplikacji
-        podstawowe techniki
-        moduł pdb
-        elementy zaawansowane.
-        
     Baza danych
         ważne aspekty przy programowaniu baz danych.
         
