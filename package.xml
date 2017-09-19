@@ -1,0 +1,10 @@
+<package>
+	<module>
+		<version architecture="AX">15.5</version>
+		<component>APG</component>
+	</module>
+	<module>
+		<version architecture="CX">13.3</version>
+		<component>APZ</component>
+	</module>
+</package>
