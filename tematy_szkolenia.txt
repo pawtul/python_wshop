@@ -145,10 +145,11 @@
 - metody słownika/listy
 
 
-# wpadki:
+# wpadki/ciekawostki:
 tuple((1,2,3,4,5))
 [[]] * 5
 {True:'a', 1:'b', 1.0:'c'}
+inter(callable, stop)
 
 co jeszcze trzeba:
 
@@ -156,14 +157,7 @@ co jeszcze trzeba:
         funkcje i programowanie funkcyjne
         częste pułapki.
         
-    Komunikacja między-procesowa (IPC)
-        zarządzanie procesami
-        obsługa sygnałów
-        komunikacja strumieniowa.
     Programowanie wielowątkowe
-        wprowadzenie do wątków
-        obsługa wątków
-        synchronizacja
         Global Intepreter Lock
         przegląd dalszych możliwości.
         
