@@ -149,25 +149,8 @@
 tuple((1,2,3,4,5))
 [[]] * 5
 {True:'a', 1:'b', 1.0:'c'}
-inter(callable, stop)
+iter(callable, stop)
 
-co jeszcze trzeba:
-
-    Usystematyzowanie podstawowej wiedzy
-        funkcje i programowanie funkcyjne
-        częste pułapki.
-        
-    Programowanie wielowątkowe
-        Global Intepreter Lock
-        przegląd dalszych możliwości.
-        
-    Baza danych
-        ważne aspekty przy programowaniu baz danych.
-        
+co jeszcze trzeba:              
     Optymalizacja wydajności programów (opcjonalnie jak starczy czasu)
-        efektywne wykorzystanie obiektów wbudowanych
-        optymalizacja interpretera Python
-        profilowanie i identyfikacja "wąskich gardeł"
-        magiczne sztuczki i co dalej?
-        
-+ linting
+        RAM
