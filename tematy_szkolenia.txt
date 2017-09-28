@@ -150,7 +150,3 @@ tuple((1,2,3,4,5))
 [[]] * 5
 {True:'a', 1:'b', 1.0:'c'}
 iter(callable, stop)
-
-co jeszcze trzeba:              
-    Optymalizacja wydajności programów (opcjonalnie jak starczy czasu)
-        RAM
