@@ -7,3 +7,11 @@ $ cd python_wshop
 $ pip install jupyter
 
 $ jupyter-notebook
+
+
+
+literatura:
+- Fluent Python
+- High Performance Python
+- Testing Python
+- Python Parallel Programming Cookbook
