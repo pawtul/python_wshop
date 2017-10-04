@@ -1,3 +1,0 @@
-#moduł unittest
-import unittest
-
