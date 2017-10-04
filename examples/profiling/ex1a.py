@@ -3,5 +3,5 @@ def has_item(collection, item):
 
 
 collection = range(10000000)
-print has_item(collection, 10000000)
+print(has_item(collection, 10000000))
 

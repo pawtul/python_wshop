@@ -5,18 +5,18 @@ from random import randint
 
 
 def producer(queue):
-    print 'producer startuje'
+    print('producer startuje')
     for i in range(5):
         time.sleep(0.5)
         x = randint(1, 5)
-        print 'producer wyprodukowal: {}'.format(x)
+        print('producer wyprodukowal: {}'.format(x))
         queue.put(x)
         queue.join()
-    print 'producer konczy'
+    print('producer konczy')
 
 
 def consumer(queue):
-    print 'consumer startuje'
+    print('consumer startuje')
     while True:
         try:
             x = queue.get(timeout=2)
@@ -24,8 +24,8 @@ def consumer(queue):
             break
         time.sleep(1.3)
         queue.task_done()
-        print 'consumer przetworzyl {}'.format(x)
-    print 'consumer konczy'
+        print('consumer przetworzyl {}'.format(x))
+    print('consumer konczy')
 
 
 queue = multiprocessing.JoinableQueue()
@@ -38,5 +38,5 @@ cons.start()
 
 prod.join()
 cons.join()
-print 'koniec programu'
+print('koniec programu')
 

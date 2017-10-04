@@ -9,7 +9,7 @@ def has_item(collection, item):
 @profile
 def main():
     collection = range(10000000)
-    print has_item(collection, 10000000)
+    print(has_item(collection, 10000000))
 
 
 main()

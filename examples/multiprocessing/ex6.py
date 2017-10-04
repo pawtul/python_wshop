@@ -4,22 +4,22 @@ from random import randint
 
 
 def producer(pipe):
-    print 'producer startuje'
+    print('producer startuje')
     for i in range(5):
         time.sleep(0.5)
         x = randint(1, 5)
-        print 'producer wyprodukowal: {}'.format(x)
+        print('producer wyprodukowal: {}'.format(x))
         pipe.send(x)
-    print 'producer konczy'
+    print('producer konczy'
 
 
 def consumer(pipe):
-    print 'consumer startuje'
+    print('consumer startuje')
     while pipe.poll(3):
         x = pipe.recv()
         time.sleep(1.3)
-        print 'consumer przetworzyl {}'.format(x)
-    print 'consumer konczy'
+        print('consumer przetworzyl {}'.format(x))
+    print('consumer konczy')
 
 
 koniec1, koniec2 = multiprocessing.Pipe()

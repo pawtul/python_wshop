@@ -4,23 +4,23 @@ from random import randint
 
 
 def producer(queue):
-    print 'producer startuje'
+    print('producer startuje')
     for i in range(5):
         time.sleep(0.5)
         x = randint(1, 5)
-        print 'producer wyprodukowal: {}'.format(x)
+        print('producer wyprodukowal: {}'.format(x))
         queue.put(x)
-    print 'producer konczy'
+    print('producer konczy')
 
 
 def consumer(queue):
-    print 'consumer startuje'
+    print('consumer startuje')
     while not queue.empty():
         x = queue.get()
         # time.sleep(1.3)
         time.sleep(0.3)
-        print 'consumer przetworzyl {}'.format(x)
-    print 'consumer konczy'
+        print('consumer przetworzyl {}'.format(x))
+    print('consumer konczy')
 
 
 queue = multiprocessing.Queue()
@@ -33,4 +33,4 @@ cons.start()
 
 prod.join()
 cons.join()
-print 'koniec programu'
+print('koniec programu')

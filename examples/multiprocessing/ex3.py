@@ -12,7 +12,7 @@ def daemon():
     child.start()
     time.sleep(2)
     open('daemon-log', 'w').close()
-    print "running function f"
+    print("running function f")
 
 
 proc = multiprocessing.Process(target=daemon)
