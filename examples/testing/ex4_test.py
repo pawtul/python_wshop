@@ -1,3 +1,4 @@
+# -*- encoding: utf-8
 import unittest
 
 import mock
@@ -5,20 +6,20 @@ import requests
 
 # właściwosci mocka
 mock_obj = mock.MagicMock()
-print("=====nieistniejacy atrybut")
-print(mock_obj.nieistniejacy_atrybut)  # nieistniejące atrybuty zostaną zastąpione nowymi Mockami
+print "=====nieistniejacy atrybut"
+print mock_obj.nieistniejacy_atrybut  # nieistniejące atrybuty zostaną zastąpione nowymi Mockami
 mock_obj.metoda = mock.MagicMock()  # to będzie metoda
-print("=====wywolanie metody")
-print(mock_obj.metoda())  # znowu jest MagicMock
+print "=====wywolanie metody"
+print mock_obj.metoda()  # znowu jest MagicMock
 mock_obj.metoda.return_value = 123
-print(mock_obj.metoda())  # teraz jest wartość
+print mock_obj.metoda()  # teraz jest wartość
 
-print("=====wywolanie metody z side_effect")
+print "=====wywolanie metody z side_effect"
 def side_effect():
-    print("side effect")
+    print "side effect"
 
 mock_obj.metoda.side_effect = side_effect
-print(mock_obj.metoda())  # wykonał się side_effect - ale nie ma return value!
+print mock_obj.metoda()  # wykonał się side_effect - ale nie ma return value!
 
 
 def read_content_of_webpage(url):

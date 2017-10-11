@@ -36,6 +36,7 @@ Pygments==2.2.0
 pyparsing==2.2.0
 PyQRCode==1.2.1
 python-dateutil==2.6.1
+PyYAML==3.12
 pyzmq==16.0.2
 qrtools==0.0.1
 requests==2.17.3
