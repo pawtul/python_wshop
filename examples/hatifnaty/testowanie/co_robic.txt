@@ -1,0 +1,1 @@
+- otestowanie klas z innych przykłądów - zwłaszcza z obiektów, io można też

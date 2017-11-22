@@ -1,0 +1,2 @@
+- dodanie metaklasy do Device - wyrzucanie wyjątków na Faultcodach albo nie - zaleznie od widzimisie twórcy klasy i wł/wył debugu metod
+- zbiór weakreferencji do urządzeń

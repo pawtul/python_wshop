@@ -1,0 +1,5 @@
+- postawowa klasa Device reprezentujaca BSC/RP itp. - atrybut instancji - ID/name, metoda connect
+- dodanie atrybutu klasy na logger, można dać tez typ urządzenia - BSC/RP/CP itp
+- dodanie classmethod do klasy RP do tworzenia instancji ze słownika
+- connect jako manager kontekstu
+- dodać property - endpoint reprezentujace "cel wysołania komend" - telnet albo subproces

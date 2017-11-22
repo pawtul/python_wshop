@@ -1,0 +1,3 @@
+- przechwytywanie printoutów
+- subprocess i wywoływanie komend z konsoli
+- przetwarzanie plików z printoutami
