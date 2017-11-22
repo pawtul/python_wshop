@@ -1,0 +1,4 @@
+- napisać prostą funkcje która coś robi
+- npaisać dekorator, który będzie zapisywał do pliku godzinę, nazwę fuknckji i argumenty wywołania
+- napisać parametryzowany dekorator, któremu można przekazać log_level - DEBUG, INFO, itp z jakim maja byc logowane eventy z tej funkcji
+- parametryzowany dekorator z wartosciami domyślnymi

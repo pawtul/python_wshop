@@ -1,0 +1,2 @@
+class RPStatusParser(object):
+    pass

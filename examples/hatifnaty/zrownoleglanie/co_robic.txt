@@ -1,0 +1,2 @@
+- kilka prosesów "wywołujących" komendy (np zmiana scxb i cmxb) i przekazują informację do innego procesu,
+który koordynuuje zmianę bordów (zmiania 3 pary bordów)
