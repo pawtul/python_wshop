@@ -1,0 +1,13 @@
+1. trzeba napisać funkcję, która bedzie wywoływać z komendy mmlowe z konsoli i zwróći printout
+2. Wyrzucanie odpowiednich wyjątków w zależnosci od faultcodu - albo jakiegoś ogólnego -
+    może mieć atrybut z numerem foltkodu
+3. Napisać funkcję, która wywołuje ciąg funkcji MMLOWYCH - jeżeli jest fault code
+    to trzeba bedzie wywołąnie powtórzyć x razy (ile dokłądnie to się ustali)
+4. Dekorator logujący do pliku czas wywołania komendy MMLowej i jaka to
+    komenda oraz FAULT CODE: numer albo SUCCESS jak niema faultcode
+
+Wskazówki:
+a) os.system
+
+b) subprocess
+
