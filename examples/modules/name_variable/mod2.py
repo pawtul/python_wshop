@@ -1,3 +1,4 @@
+from __future__ import print_function
 # __name__ = 'kitku'
 
 if __name__ == '__main__':
@@ -6,7 +7,7 @@ if __name__ == '__main__':
 if __name__ == 'kitku':
     print('__name__ to kitku')
 
-print __file__
+print(__file__)
 modname = __file__[:-3]
 if __name__ == modname:
-    print "imported"
+    print("imported")
