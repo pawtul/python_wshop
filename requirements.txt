@@ -29,7 +29,7 @@ jupyter-console==5.2.0
 jupyter-core==4.3.0
 MarkupSafe==1.0
 memory-profiler==0.47
-mistune==0.7.4
+mistune==2.0.3
 mock==2.0.0
 natsort==5.0.3
 nbconvert==5.3.0
